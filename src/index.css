@@ -1,0 +1,39 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+
+html {
+  font-size: 1rem;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.btn-danger {
+  background: maroon;
+  border-color: maroon;
+}
+.srv-validation-message {
+  color: red;
+}
+.form-control.error,
+.custom-select.error {
+  border-color: red;
+}
+.text-danger{
+  display: block;
+  width: 100%;
+}
+.green{
+  color: green;
+}
+.red{
+  color: maroon;
+}

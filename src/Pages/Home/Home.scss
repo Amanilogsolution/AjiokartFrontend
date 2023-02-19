@@ -1,0 +1,78 @@
+.home {
+  .banner {
+    position: relative;
+    .row-container{
+      min-height: 232px;
+    }
+
+    .jumbotron {
+      background: #880000;
+      border-radius: 0;
+      padding: 5rem 0;
+
+      @media (min-width: 576px) {
+        margin-bottom: 4rem;
+      }
+
+      h1 {
+        color: #fff;
+        font-size: 1.4rem;
+
+        @media (min-width: 576px) {
+          font-size: 1.6rem;
+        }
+      }
+
+      p {
+        color: #fff;
+
+        @media (max-width: 576px) {
+          font-size: 1rem;
+        }
+      }
+
+      .login-form {
+        display: none;
+        background-color: #fff;
+
+        @media (min-width: 576px) {
+          position: absolute;
+          right: 15px;
+          bottom: -145px;
+          top: auto;
+          margin: 0;
+          z-index: 9;
+          padding-top: 20px;
+          display: block;
+        }
+
+        h1 {
+          color: #000;
+        }
+
+        &.loogedin {
+          bottom: auto;
+
+          p {
+            color: #000 !important;
+          }
+        }
+      }
+    }
+  }
+  h1{
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  p{
+    a{
+      color: #000;
+
+      text-decoration: none;
+      &:hover{
+        text-decoration: underline;
+        text-underline-position: under;
+      }
+    }
+  }
+}

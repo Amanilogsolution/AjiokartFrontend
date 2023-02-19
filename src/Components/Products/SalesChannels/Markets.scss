@@ -1,0 +1,15 @@
+.marketsBanner{
+    border-radius: 8px;
+    background-color:#fff;
+    border: 1px solid #eee;
+    padding:40px 20px;
+
+    .btn{
+        vertical-align: top;
+    }
+
+}
+.marketbox{
+    display: grid;
+    grid-template-columns: auto 40px;
+}

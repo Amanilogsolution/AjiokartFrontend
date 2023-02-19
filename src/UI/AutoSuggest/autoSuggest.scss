@@ -1,0 +1,35 @@
+.auto-suggest {
+    position: relative;
+
+    .suggestions {
+        position: absolute;
+        z-index: 1;
+        background: #fff;
+        width: 100%;
+        border: 1px solid #ced4da;
+        border-top: 0;
+        list-style: none;
+        padding: 0;
+        li{
+            padding: 10px;
+            cursor: pointer;
+
+            &.suggestion-active{
+                background-color: #eee;
+            }
+        }
+    }
+    .no-suggestions{
+        position: absolute;
+        z-index: 1;
+        background: #fff;
+        width: 100%;
+        border: 1px solid #ced4da;
+        border-top: 0;
+        list-style: none;
+        padding: 0;
+        color: #880000;
+        padding: 5px;
+
+    }
+}

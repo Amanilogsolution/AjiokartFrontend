@@ -1,0 +1,17 @@
+.hygine-page{
+    padding: 50px 0 ;
+    h1{
+        margin-bottom: 40px;
+    }
+    a{
+        color: #000;
+        &:hover{
+                color: #000;
+                text-decoration: underline;
+        }
+    }
+    p{
+       font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif
+    }
+}

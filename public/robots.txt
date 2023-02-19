@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Allow: *
+Sitemap: https://seller.duopolin.com/sitemap.xml
